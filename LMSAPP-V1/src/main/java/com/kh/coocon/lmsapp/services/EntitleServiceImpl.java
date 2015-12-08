@@ -67,22 +67,20 @@ public class EntitleServiceImpl implements EntitleService{
 		return null;
 	}
 
-	@Override
 	public boolean addUser(Entitledays b) {
 		// TODO Auto-generated method stub
 		return false;
 	}
 
-	@Override
 	public boolean deleteUser(int id) {
 		// TODO Auto-generated method stub
 		return false;
 	}
 
-	@Override
 	public boolean updateUser(Entitledays b) {
 		// TODO Auto-generated method stub
 		return false;
 	}
 
+	
 }
