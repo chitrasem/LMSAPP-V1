@@ -1,4 +1,4 @@
-package com.kh.coocon.lmsapp.configuration;
+package com.kh.coocon.lmsapp.config;
 
 
 
