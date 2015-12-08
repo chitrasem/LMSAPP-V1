@@ -1,4 +1,4 @@
-package com.kh.coocon.lmsapp.config;
+package com.kh.coocon.lmsapp.configuration;
 
 import javax.sql.DataSource;
 

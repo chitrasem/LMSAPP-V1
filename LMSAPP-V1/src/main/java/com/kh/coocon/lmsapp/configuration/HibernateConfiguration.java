@@ -1,4 +1,4 @@
-package com.kh.coocon.lmsapp.config;
+package com.kh.coocon.lmsapp.configuration;
 
 import java.util.Properties;
 
@@ -18,7 +18,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  
 @Configuration
 @EnableTransactionManagement
-@ComponentScan({ "com.kh.coocon.lmsapp.config" })
+@ComponentScan({ "com.kh.coocon.lmsapp.configuration" })
 @PropertySource(value = { "classpath:application.properties" })
 public class HibernateConfiguration {
  
