@@ -15,7 +15,7 @@ import javax.persistence.ManyToMany;
 import javax.persistence.Table;
  
 @Entity
-@Table(name="LMS_USER")
+@Table(name="LMS_USERS")
 public class User {
  
     @Id @GeneratedValue(strategy=GenerationType.IDENTITY)
@@ -45,7 +45,7 @@ public class User {
     private String state=State.ACTIVE.getState();
  
     @ManyToMany(fetch = FetchType.EAGER)
-    @JoinTable(name = "APP_USER_USER_PROFILE", 
+    @JoinTable(name = "LMS_USER_USER_PROFILE", 
              joinColumns = { @JoinColumn(name = "USER_ID") }, 
              inverseJoinColumns = { @JoinColumn(name = "USER_PROFILE_ID") })
     private Set<UserProfile> userProfiles = new HashSet<UserProfile>();
